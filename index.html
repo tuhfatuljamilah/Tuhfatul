@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/imageslides.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/galeri.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Progate</title>
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <section id="navbar">                        
+            <div class="container">
+                <a href="#" class="logo">My Team</a>                       
+                
+                <span href="javascript:void(0);" class="icon" onclick="navbarCollapse()">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <div id="topnav" class="navbar-menu">
+                  <a href="#" class="nav-link size active">Home</a>
+                  <a href="#about" class="nav-link size">About</a>
+                  <a href="#portofolio" class="nav-link size">Portofolio</a>
+                  <a href="#team" class="nav-link size">Team</a>
+                  <a href="#contact" class="nav-link size">Contact</a>                
+                </div>
+            </div>
+        </section>        
+    </header>
+
+    <!-- Top Wrapper -->
+    <div class="top-wrapper">
+        <!-- Image Slide -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">                        
+                <img src="assets/img/Foto1.jpg" style="width:100%">                        
+            </div>
+                
+            <div class="mySlides fade">                        
+                <img src="assets/img/Foto2.jpg" style="width:100%">                
+            </div>
+                
+            <div class="mySlides fade">                        
+                <img src="assets/img/Foto3.jpg" style="width:100%">                        
+            </div>
+                
+        </div>
+        <br>
+                
+        <div class="slideComponent" style="text-align:center">
+                
+            <div class="text">                          
+                <h1>WE ARE J10 TEAM PHOTOGRAPHY</h1>
+                <h3>A CREATIVE MULTIMEDIA</h3>
+                <h3>AGENCY</h3>
+                <div class="sub-text">
+                    <p>J10 Team Photography is a story telling wedding photography and cinematic film. We should to think ourselves as a friend to help your self and support you needs</p>            
+                    <p>We capture moments with pure honesty and emotions and we love telling those stories for you</p>
+                </div>
+                <div class="btn-wrapper">
+                    <a href="#" class="btn blue">Let See More <i class="fa fas fa-arrow-right"></i></a>
+                </div>                    
+            </div>
+
+            <div class="dotSlide">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+        </div>                
+        
+    </div>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="heading-about">
+                <h1>ABOUT US</h1>
+                <span class="border"></span>
+            </div>
+            <div class="content-about">
+                <div class="content-left">
+                    <img src="assets/img/Foto4.jpg">
+                </div>
+                <div class="content-right">
+                    <p>
+                        J10 Team Photography is a story telling wedding photography and cinematic film.
+                        We should to think ourselves as a friend to help your self and support you needs 
+                        We capture moments with pure honesty and emotions and we love telling those stories for you                    
+                    </p>
+                    <h3>- J10 Team</h3>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section id="portofolio" class="portofolio">        
+        <div class="container" style="padding: 0;">
+            
+            <div class="heading-porto">
+                <h1>OUR PORTOFOLIO</h1>                
+            </div>
+
+            <div class="mySlides2">
+                <div class="numbertext">1 / 4</div>
+                <img src="assets/img/Foto3.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides2">
+                <div class="numbertext">2 / 4</div>
+                <img src="assets/img/Foto2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides2">
+                <div class="numbertext">3 / 4</div>
+                <img src="assets/img/Foto1.jpg" style="width:100%">
+            </div>
+                
+            <div class="mySlides2">
+                <div class="numbertext">4 / 4</div>
+                <img src="assets/img/Foto6.jpg" style="width:100%">
+            </div>                        
+                
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/Foto3.jpg" style="width:100%" onclick="currentSlide(1)" alt="Foto 1">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/Foto2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Foto 2">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/Foto1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Foto 3">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/Foto6.jpg" style="width:100%" onclick="currentSlide(4)" alt="Foto 4">
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="teams">        
+        <div class="container">
+            <div class="heading-team">
+                <h1>OUR TEAM</h1>
+                <span class="border"></span>
+            </div>
+
+            <div class="content-team">
+                <div class="team">
+                    <div class="card">
+                        <img src="assets/img/Kucing1.jpg" alt="John" style="width:100%">
+                        <h1>Tegar Saputra</h1>
+                        <p class="title">Network Engineer & Web Developer</p>
+                        <p>Progate Batch-2</p>
+                        <div style="margin: 24px 0;">
+                          <a href="#"><i class="fa fa-dribbble"></i></a> 
+                          <a href="#"><i class="fa fa-twitter"></i></a>  
+                          <a href="#"><i class="fa fa-linkedin"></i></a>  
+                          <a href="#"><i class="fa fa-facebook"></i></a> 
+                        </div>
+                        <p><button>Contact</button></p>
+                      </div>
+                </div>
+
+                <div class="team">
+                    <div class="card">
+                        <img src="assets/img/Kucing2.jpg" alt="John" style="width:100%">
+                        <h1>Tuhfatul Jamilah</h1>
+                        <p class="title">Web Developer</p>
+                        <p>Progate Batch-2</p>
+                        <div style="margin: 24px 0;">
+                          <a href="#"><i class="fa fa-dribbble"></i></a> 
+                          <a href="#"><i class="fa fa-twitter"></i></a>  
+                          <a href="#"><i class="fa fa-linkedin"></i></a>  
+                          <a href="#"><i class="fa fa-facebook"></i></a> 
+                        </div>
+                        <p><button>Contact</button></p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container" style="padding: 0;">
+            
+            <div class="message-wrapper">
+                <div class="container">
+                  <div class="heading-message">
+                    <h2>BOOK AN EVENT</h2>
+                    <h3>Events Is A Professionally Managed Event</h3>
+                  </div>
+                  <span class="btn message"><b>Request by Whatsapp</b></span>
+                </div>
+            </div>
+
+            <div class="main-contact">                
+                <div class="heading-contact">
+                    <h1>Contact Us</h1>
+                    <span class="border"></span>
+                </div>
+
+                <div class="content-contact">
+                    <div class="container" >                      
+                        <div class="contacts">
+                          <div class="contact-item">
+                            <div class="contact-icon">
+                              <img src="https://user-images.githubusercontent.com/67049488/85245721-b25e0900-b472-11ea-9693-c169b1d881c1.png">
+                               <p>ADDRESS</p>
+                            </div>
+                            <p class="txt-contents">Jalan Progate Batch II No. J10, Jakarta</p>
+                          </div>
+                          <div class="contact-item">
+                            <div class="contact-icon">
+                              <img src="https://user-images.githubusercontent.com/67049488/85246349-9a878480-b474-11ea-8780-1dc4c8084c53.png">
+                              <p>PHONES</p>
+                            </div>
+                            <p class="txt-contents">Phone: +62 852000000</p>
+                          </div>
+                          <div class="contact-item">
+                            <div class="contact-icon">
+                              <img src="https://user-images.githubusercontent.com/67049488/85246848-0c140280-b476-11ea-8958-f7e1944f1820.png">
+                              <p>EMAIL</p>
+                            </div>
+                            <p class="txt-contents">J10Production@gmail.com</p>
+                          </div>
+                          <div class="contact-item">
+                            <div class="contact-icon">
+                              <img src="https://user-images.githubusercontent.com/67049488/85246953-77f66b00-b476-11ea-9d54-deb39cce1863.png">
+                              <p>WORKING HOURS</p>
+                            </div>
+                            <p class="txt-contents">Monday-Friday: 9.00-17.00</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-cat">
+            <p>Publish by J10 Team Production All Rights Reserved</p>
+            <p>Tuhfatul Jamilah - Tegar Saputra</p>
+        </div>
+    </footer>
+
+</body>
+
+<script src="assets/js/script.js"></script>
+
+</html>
