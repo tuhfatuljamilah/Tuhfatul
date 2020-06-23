@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;    
+    padding: 10px;
+}
+
+/* Header */
+
+.bg-nav {
+    background-color: #303952;
+}
+
+#navbar {        
+    overflow: hidden;    
+    padding: 60px 20px;
+    transition: 0.4s;
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    z-index: 99;
+}
+
+#navbar .logo {
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+    line-height: 50px;     
+}
+
+#navbar .icon {
+    float: right;   
+    font-size: 25px; 
+    display: none;
+    color: #fff;
+    line-height: 50px;         
+}
+  
+.navbar-menu {  
+    float: right;    
+    font-size: 18px;
+}
+
+
+.navbar-menu a {    
+    float: left;
+    color: #fff;
+    text-align: center;    
+    padding: 10px 15px; 
+    margin-right: 5px;       
+    line-height: 25px;         
+}
+
+.navbar-menu a:hover {
+    border-bottom: 2px solid #fff;   
+    color: #fff;
+}
+  
+.navbar-menu a.active {
+    border-bottom: 2px solid #fff;  
+    border-width: 2px;
+}
+
+/* Top Wrapper */
+
+.top-wrapper {    
+    height: 100vh;
+    padding: 230px 0 100px 0;    
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+  
+.top-wrapper h1, .top-wrapper h3 {   
+    opacity: 0.7; 
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+  
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+  
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+  
+.btn-wrapper p {
+    margin: 10px 0;
+}
+  
+.blue {
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+    
+.btn {
+    padding: 12px 24px;    
+    display: inline-block;    
+    opacity: 0.7;
+    border-radius: 4px;
+    text-align: center;
+}
+  
+.blue:hover {
+    background-color: #fff;
+    color: rgba(34, 49, 52, 0.6);    
+}
+  
+.fa {
+    margin-right: 5px;
+}
+
+.btn i {
+    margin-left: 5px;
+}
+
+/* About */
+
+.about {
+    padding: 50px;
+    background-color: #ececec;    
+    width: 100%;    
+}
+
+.heading-about {        
+    text-align: center;
+    display: block;
+}
+  
+.heading-about h1 {
+    font-weight: bolder;    
+    margin-bottom: 10px;
+}
+
+.border {        
+    padding: 0 60px;    
+    border-top: 6px solid #303952;
+}
+
+.content-about {    
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;    
+    text-align:justify;
+}
+
+.content-about .content-right {    
+    margin-left: 80px;
+    margin-top: 100px;
+    float: left;
+    width: 40%;
+}
+
+.content-about p {  
+    font-style: italic;  
+    margin-bottom: 7px;
+}
+
+.content-left {
+    margin-left: 50px;
+    float: left;
+    width: 40%;
+}
+
+.content-about .content-left img {    
+    width: 100%;
+}
+
+/* Portofolio */
+
+.heading-porto {
+    margin-top: 50px;
+    background-color: #303952;
+    width: 100%;
+    padding: 25px;
+}
+
+.heading-porto h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Team */
+
+.teams {
+    width: 100%;
+    padding: 50px;    
+}
+
+.heading-team {        
+    text-align: center;
+    display: block;
+}
+  
+.heading-team h1 {
+    font-weight: bolder;    
+    margin-bottom: 10px;
+}
+
+.content-team {
+    overflow: hidden;
+    margin-top: 30px;       
+}
+
+.team {        
+    float: left;    
+    width: 50%;
+    padding: 15px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    line-height: 30px;
+}
+
+.card img {
+    border-radius: 10px;
+    height: 250px;
+}
+  
+.card .title {
+    color: grey;
+    font-size: 18px;
+}
+ 
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #303952;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0 0 10px 10px;
+}
+  
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+  
+.card button:hover, a:hover {
+    opacity: 0.7;
+}
+
+/* Contact */
+
+.contact {
+   width: 100%;    
+}
+
+.main-contact {
+    padding: 50px;
+}
+
+.heading-contact {            
+    text-align: center;
+    display: block;
+}
+  
+.heading-contact h1 {
+    font-weight: bolder;    
+    margin-bottom: 10px;
+}
+
+.heading-message {
+    font-weight: normal;
+    color: white;
+}
+  
+  
+.message-wrapper {
+    background-image: url(https://selular.id/wp-content/uploads/2019/10/Booking-com-1.jpeg);
+    min-height: 500px;   
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px solid #eee;
+    padding: 150px 0 150px 0;
+    text-align: center;
+}
+  
+.message {
+    margin-top: 15px;
+    padding: 15px 40px;
+    background-color: #596275;        
+    box-shadow: 0 7px #303952;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.message:hover {
+    opacity: 1;
+}
+  
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;    
+}
+
+.content-contact {   
+    overflow: hidden; 
+    margin-top: 50px;    
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.contact-item {
+    float: left;
+    width: 25%;
+}
+
+.contact-icon {
+    position: relative;
+  }
+  
+.contact-icon p {
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    color: #5f5d60;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+/* Footer */
+
+footer {
+    background-color: #303952;
+    color: #fff;
+    height: 80px;
+    padding: 30px;
+    text-align: center;
+    bottom: 0;
+}
+
+.footer-cat p {
+    font-size: 12px;
+}
+  

@@ -1,0 +1,141 @@
+@media all and (max-width: 1000px) {
+
+    /* Top Wrapper */
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    /* About */
+
+    .content-about .content-left {
+        margin-left: 0;
+    }
+
+    .content-about .content-right {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 50%;
+    }
+
+    /* Contact */
+    .main-contact {
+        padding: 0;
+    }
+
+    .contact-item {
+        width: 50%;        
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media all and (max-width: 678px) {
+
+    #navbar {
+        background-color: #303952;
+        ;
+        padding: 20px;        
+    }
+
+    #navbar .logo {
+        font-size: 28px;
+    }
+    
+    #navbar .icon {
+        display: block;        
+    }
+
+    .navbar-menu a{
+        display: none;
+    }
+
+    .navbar-menu.responsive {
+        position: relative;
+        background-color: #303952;        
+    }
+
+    .navbar-menu.responsive a {        
+      width: 100%;
+      margin-top: 20px;
+      display: block;
+      text-align: center;      
+    }
+
+    /* Top Wrapper */
+
+    .top-wrapper {
+        text-align: left;
+        height: 70vh;
+    }
+      
+    .top-wrapper h1 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .top-wrapper h3 {
+        font-size: 18px;
+        font-size: unset;
+    }
+      
+    .top-wrapper p {
+        font-size: 14px;
+        line-height : 20px;
+    }    
+    
+    .slideshow-container img {
+        height: 70vh;
+    }
+
+    .slideComponent {
+        top: 200px;
+        height: fit-content;
+        padding: 0;        
+    }
+
+    .sub-text {
+        display: none;
+    }
+
+    .text {
+        margin-bottom: 80px;
+    }
+
+    /* About */
+
+    .about {
+        padding: 20px;
+    }
+
+    .heading-about {
+        margin-top: 20px;
+    }
+
+    .content-left {
+        display: none;
+    }
+
+    .content-about .content-right {
+        margin-top: 50px;
+        margin-left: 0;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Team */
+
+    .team {
+        width: 100%;
+    }
+
+    /* contact */
+    
+    .contact-item {
+        float: none;
+        width: 100%;
+    }
+
+}
